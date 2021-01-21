@@ -12,14 +12,10 @@ TBC
 
 ## TODO
 - [ ] instruction how to use this repo
-- [ ] add `Vagrantfile`
 - [ ] write scripts that download `vault`
-- [ ] write scripts that 
-- [ ] write scripts that
-- [ ] write scripts that
-- [ ] write scripts that
+- [ ] what
  
 
 ## DONE
-- [ ] 
+- [x] add `Vagrantfile`
 
