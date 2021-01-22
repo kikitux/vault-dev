@@ -82,6 +82,26 @@ vagrant up
 which vault
 ```
 
+### Connect to the VM
+```shell
+vagrant ssh
+```
+
+### Give yourself root permission
+```shell
+sudo su -
+```
+
+### Access the vagrant file created when the VM has started
+```shell
+cd /vagrant/
+```
+
+### Start the vault server in DEV mode
+```shell
+vault server -dev
+```
+
 TBC
 
 ## TODO
