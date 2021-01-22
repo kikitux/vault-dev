@@ -18,7 +18,7 @@ In order to use this repo, the commands you need to run are
 
 ### Clone the Repository
 
-```
+```shell
 git clone https://github.com/kikitux/vault-dev.git
 cd vault-dev
 ```
@@ -29,7 +29,7 @@ cd vault-dev
 - A `download-vault.sh` script that will download Vault
 
 `Vagrantfile` from this repository:
-```
+```ruby
 Vagrant.configure("2") do |config|
   config.vm.box = "hashicorp/bionic64"
   config.vm.provision "shell", path: "scripts/download-vault.sh"
@@ -37,7 +37,7 @@ end
 ```
 
 `donwload-vault.sh` from this repository:
-```
+```shell
 #!/usr/bin/env bash
 
 # download vault if not installed
@@ -73,12 +73,12 @@ fi
 ```
 
 ### Start vagrant
-```
+```shell
 vagrant up
 ```
 
 ### Check vault has been installed
-```
+```shell
 which vault
 ```
 
