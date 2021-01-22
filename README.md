@@ -12,10 +12,8 @@ TBC
 
 ## TODO
 - [ ] instruction how to use this repo
-- [ ] write scripts that download `vault`
-- [ ] what
  
 
 ## DONE
 - [x] add `Vagrantfile`
-
+- [x] write scripts that download `vault`
