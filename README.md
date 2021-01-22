@@ -12,7 +12,6 @@ TBC
 
 ## TODO
 - [ ] instruction how to use this repo
-- [ ] what
  
 
 ## DONE
