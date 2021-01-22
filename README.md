@@ -28,7 +28,7 @@ cd vault-dev
 - A `Vagrantfile` that includes an Ubuntu VM
 - A `download-vault.sh` script that will download Vault
 
-`Vagrantfile` from this repository:
+[`Vagrantfile`](Vagrantfile) from this repository:
 ```ruby
 Vagrant.configure("2") do |config|
   config.vm.box = "hashicorp/bionic64"
@@ -36,7 +36,7 @@ Vagrant.configure("2") do |config|
 end
 ```
 
-`donwload-vault.sh` from this repository:
+[`download-vault.sh`](scripts/download-vault.sh) from this repository:
 ```shell
 #!/usr/bin/env bash
 
