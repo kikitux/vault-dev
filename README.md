@@ -72,6 +72,16 @@ then
 fi
 ```
 
+### Start vagrant
+```
+vagrant up
+```
+
+### Check vault has been installed
+```
+which vault
+```
+
 TBC
 
 ## TODO
