@@ -76,7 +76,7 @@ then
     # add the HashiCorn GPG key
     curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 
-    # add the oficial HashiCorp Linus repository
+    # add the oficial HashiCorp Linux repository
     sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 
     # install jq for json parsing
